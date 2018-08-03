@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="lobbysystem">
+    <output-path>E:/1. Development/Spigot/plugins</output-path>
+    <root id="archive" name="lobbysystem.jar">
+      <element id="module-output" name="lobbysystem" />
+    </root>
+  </artifact>
+</component>
