@@ -1,2 +1,2 @@
-© Copyright by spelkdev
-\nYou are NOT allowed to use this code for your self.
+#© Copyright by spelkdev.
+You are NOT allowed to use this code for your self.
