@@ -10,7 +10,7 @@ import java.util.Random;
 public class staticConfigManager {
 
     private static File file = new File("plugins//LobbySystem", "static.yml");
-    private static FileConfiguration config = YamlConfiguration.loadConfiguration(file);
+    public static FileConfiguration config = YamlConfiguration.loadConfiguration(file);
 
     public static String genOwnerToken(){
         String out = "";
