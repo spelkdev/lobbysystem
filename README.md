@@ -1,2 +1,2 @@
 © Copyright by spelkdev.
-You are NOT allowed to use this code for your self.
+You are NOT allowed to USE/REUPLOAD/EDIT this code.
