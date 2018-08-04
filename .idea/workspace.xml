@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f282c0d-0e05-4fa1-bbb7-475a1e977567" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/BungeeCord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lobbysystem.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/lobbysystem.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/others_Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/DailyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/GadgetsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/ScoreboardManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/TrailManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lobbysystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lobbysystem.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/de/spelk/lobbysystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/spelk/lobbysystem/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/interact_Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/interact_Event.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/join_Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/join_Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/ItemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/ItemManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/CoinsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/CoinsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/MySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/MySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/STATIC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/STATIC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/staticConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/staticConfigManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,20 +28,24 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+            <state relative-caret-position="392">
+              <caret line="56" column="34" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1626#1627#0" expanded="true" />
+                <element signature="e#1681#1682#0" expanded="true" />
+                <element signature="e#4366#4367#0" expanded="true" />
+                <element signature="e#4397#4398#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interact_Event.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/interact_Event.java">
+      <file leaf-file-name="CoinsManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/CoinsManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="911">
-              <caret line="81" column="41" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
+            <state relative-caret-position="667">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,17 +56,17 @@
       <file leaf-file-name="join_Event.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/join_Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="621">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clearLog_CMD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/commands/clearLog_CMD.java">
+      <file leaf-file-name="ScoreboardManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/ScoreboardManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="437">
+              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,25 +74,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quit_Event.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/quit_Event.java">
+      <file leaf-file-name="others_Event.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/others_Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="943">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#1327#1328#0" expanded="true" />
+                <element signature="e#1363#1364#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build_CMD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/commands/build_CMD.java">
+      <file leaf-file-name="DailyManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/DailyManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1059">
+              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GadgetsManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/GadgetsManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1357">
+              <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrailManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/TrailManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySQL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/MySQL.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="552">
-              <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,44 +136,11 @@
       <file leaf-file-name="ItemManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/ItemManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="67" column="64" lean-forward="true" selection-start-line="67" selection-start-column="64" selection-end-line="67" selection-end-column="64" />
+            <state relative-caret-position="1541">
+              <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/LogManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build_Event.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/build_Event.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="STATIC.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/STATIC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -159,16 +166,24 @@
         <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/eConfigManager.java" />
         <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/build_Event.java" />
         <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/drop_Event.java" />
-        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/staticConfigManager.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/quit_Event.java" />
         <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/commands/build_CMD.java" />
-        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/STATIC.java" />
         <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/commands/clearLog_CMD.java" />
-        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/Main.java" />
-        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/join_Event.java" />
         <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/interact_Event.java" />
         <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/ItemManager.java" />
+        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/commands/genToken_CMD.java" />
+        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/TokenManager.java" />
+        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/STATIC.java" />
+        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/staticConfigManager.java" />
+        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/MySQL.java" />
+        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/CoinsManager.java" />
+        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/DailyManager.java" />
+        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/join_Event.java" />
+        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/others_Event.java" />
+        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/GadgetsManager.java" />
+        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/ScoreboardManager.java" />
+        <option value="$PROJECT_DIR$/src/de/spelk/lobbysystem/Main.java" />
       </list>
     </option>
   </component>
@@ -187,8 +202,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,13 +245,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="E:/1. Development/BungeeCord/Proxy/BungeeCord.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -376,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533381359346</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="15:01 04.08.18">
+      <created>1533387704647</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1533387704647</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -385,7 +408,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32970452" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32970452" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -422,7 +445,8 @@
     <MESSAGE value="01:33 04.08.18" />
     <MESSAGE value="01:33&#10; 04.08.18" />
     <MESSAGE value="13:15 04.08.18" />
-    <option name="LAST_COMMIT_MESSAGE" value="13:15 04.08.18" />
+    <MESSAGE value="15:01 04.08.18" />
+    <option name="LAST_COMMIT_MESSAGE" value="15:01 04.08.18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -430,75 +454,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/commands/clearLog_CMD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/quit_Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/commands/build_CMD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/ItemManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1265">
-          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/LogManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/build_Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/STATIC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -512,6 +467,10 @@
           <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#4366#4367#0" expanded="true" />
+            <element signature="e#4397#4398#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -530,9 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -547,11 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -589,9 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -608,6 +556,10 @@
           <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#4366#4367#0" expanded="true" />
+            <element signature="e#4397#4398#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -626,9 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,6 +639,10 @@
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#4366#4367#0" expanded="true" />
+            <element signature="e#4397#4398#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -727,31 +680,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/core/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/core/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/MySQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/CoinsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/drop_Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/staticConfigManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -765,46 +697,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/STATIC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/quit_Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="161">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/commands/clearLog_CMD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/join_Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/commands/build_CMD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        <state relative-caret-position="483">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -813,18 +716,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/build_Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
+        <state relative-caret-position="391">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/LogManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/LogManager.java">
+    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/commands/clearLog_CMD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+        <state relative-caret-position="529">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/TokenManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/commands/genToken_CMD.java" />
+    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/STATIC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/staticConfigManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/interact_Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="852">
+          <caret line="81" column="41" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -833,8 +766,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/ItemManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="67" column="64" lean-forward="true" selection-start-line="67" selection-start-column="64" selection-end-line="67" selection-end-column="64" />
+        <state relative-caret-position="1541">
+          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/MySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/TrailManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/GadgetsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1357">
+          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/CoinsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -843,20 +813,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+        <state relative-caret-position="392">
+          <caret line="56" column="34" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#4366#4367#0" expanded="true" />
+            <element signature="e#4397#4398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/ScoreboardManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/interact_Event.java">
+    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/join_Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="911">
-          <caret line="81" column="41" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
+        <state relative-caret-position="621">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/utils/DailyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1059">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/spelk/lobbysystem/listeners/others_Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
           </folding>
         </state>
       </provider>
