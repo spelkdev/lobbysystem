@@ -13,11 +13,7 @@ public class join_Event implements Listener {
     public void onJoin(PlayerJoinEvent e){
         Player p = e.getPlayer();
         e.setJoinMessage(null);
-        p.getInventory().clear();
-        p.getInventory().setItem(0, ItemManager.navigator());
-        p.getInventory().setItem(1, ItemManager.hider());
-        p.getInventory().setItem(7, ItemManager.lobbyswitcher());
-        p.getInventory().setItem(8, ItemManager.gadgets());
+        ItemManager.loadDefault(p);
         LogManager.add(p.getName() + " joined the Lobby!");
     }
 

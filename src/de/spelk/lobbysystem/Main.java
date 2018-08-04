@@ -15,6 +15,7 @@ public class Main extends JavaPlugin {
 
     private static Main instance;
     public static List<Player> buildMode = new ArrayList<>();
+    public static HashMap<Player,Integer> hiderCache = new HashMap<>();
 
     @Override
     public void onEnable() {
@@ -24,6 +25,8 @@ public class Main extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage("§8§l==     §4§lCOPYRIGHT    §8§l==");
         instance = this;
         LogManager.add("Lobbysystem enabled!");
+        LogManager.add("OutgoingPluginChannel[BungeeCord] registered");
+        Bukkit.getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
         regEvents();
         regCommands();
     }
