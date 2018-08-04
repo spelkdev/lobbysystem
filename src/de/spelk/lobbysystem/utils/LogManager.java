@@ -13,7 +13,7 @@ import java.util.List;
 
 public class LogManager {
 
-    private static File file = new File("plugins//LobbySystem", "log.yml");
+    public static File file = new File("plugins//LobbySystem", "log.yml");
     public static FileConfiguration cfg = YamlConfiguration.loadConfiguration(file);
 
     public static String date(){

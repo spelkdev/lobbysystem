@@ -3,3 +3,6 @@ version: 1.0-SNAPSHOT
 author: spelkdev
 main: de.spelk.lobbysystem.Main
 
+commands:
+  build:
+  clearlog:

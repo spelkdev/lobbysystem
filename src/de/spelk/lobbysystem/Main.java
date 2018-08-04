@@ -1,8 +1,8 @@
 package de.spelk.lobbysystem;
 
-import de.spelk.lobbysystem.listeners.build_Event;
-import de.spelk.lobbysystem.listeners.drop_Event;
-import de.spelk.lobbysystem.listeners.join_Event;
+import de.spelk.lobbysystem.commands.build_CMD;
+import de.spelk.lobbysystem.commands.clearLog_CMD;
+import de.spelk.lobbysystem.listeners.*;
 import de.spelk.lobbysystem.utils.LogManager;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -25,6 +25,7 @@ public class Main extends JavaPlugin {
         instance = this;
         LogManager.add("Lobbysystem enabled!");
         regEvents();
+        regCommands();
     }
 
     @Override
@@ -37,10 +38,13 @@ public class Main extends JavaPlugin {
         pl.registerEvents(new join_Event(), this);
         pl.registerEvents(new drop_Event(), this);
         pl.registerEvents(new build_Event(), this);
+        pl.registerEvents(new quit_Event(), this);
+        pl.registerEvents(new interact_Event(), this);
     }
 
     private void regCommands(){
-
+        getCommand("build").setExecutor(new build_CMD());
+        getCommand("clearlog").setExecutor(new clearLog_CMD());
     }
 
     public static Main getInstance() {
