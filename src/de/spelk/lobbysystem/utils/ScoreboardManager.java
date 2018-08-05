@@ -14,13 +14,16 @@ public class ScoreboardManager {
         Objective o = board.registerNewObjective("lobby", "dummy");
         o.setDisplayName(STATIC.PREFIX);
         o.setDisplaySlot(DisplaySlot.SIDEBAR);
-        o.getScore("§f  ").setScore(6);
-        o.getScore("§6✪ §c§lDeine Coins").setScore(5);
-        o.getScore("§8§l➥ §a§l" + CoinsManager.getCoins(player.getUniqueId())).setScore(4);
-        o.getScore("§f ").setScore(3);
-        o.getScore("§6✪ §c§lDein Rang").setScore(2);
-        o.getScore("§8§l➥ " + getRank(player)).setScore(1);
-        o.getScore("§f").setScore(0);
+        o.getScore("§f  ").setScore(10);
+        o.getScore("§6✪ §c§lDeine Coins").setScore(9);
+        o.getScore("§8§l➥ §a§l" + CoinsManager.getCoins(player.getUniqueId())).setScore(8);
+        o.getScore("§f ").setScore(7);
+        o.getScore("§6✪ §c§lDein Rang").setScore(6);
+        o.getScore("§8§l➥ " + getRank(player)).setScore(5);
+        o.getScore("§f").setScore(4);
+        o.getScore("§6✪ §c§lTeamspeak").setScore(3);
+        o.getScore("§8§l➥ §b§lLePseudo.DE").setScore(2);
+        o.getScore("§f         ").setScore(1);
         player.setScoreboard(board);
     }
 

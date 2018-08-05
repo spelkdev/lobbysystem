@@ -6,3 +6,4 @@ main: de.spelk.lobbysystem.Main
 commands:
   build:
   clearlog:
+  setLoc:

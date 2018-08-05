@@ -15,6 +15,8 @@ public class join_Event implements Listener {
     public void onJoin(PlayerJoinEvent e){
         Player p = e.getPlayer();
         e.setJoinMessage(null);
+        PlayersManager.setJoined(p);
+        ItemManager.loadDefault(p);
         LogManager.add(p.getName() + " joined the Lobby!");
         ScoreboardManager.setSB(p);
         Date cDate = new Date();

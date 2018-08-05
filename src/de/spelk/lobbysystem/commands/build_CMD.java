@@ -29,6 +29,8 @@ public class build_CMD implements CommandExecutor {
                         ItemManager.loadDefault(p);
                     }
                 }
+            }else{
+                p.sendMessage(STATIC.ERROR + "§c§lDu hast dazu keine Rechte!");
             }
         }
         return true;
